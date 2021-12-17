@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadezhda Hertz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <nav class="mobile-menu">
+        <label for="checkbox" class="mobile-menu__btn" id="mobileButtons">
+            <span></span>
+        </label>
+
+        <div class="mobile-menu__container" id="mobileMenu">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">Домой</a></li>
+                <li class="mobile-menu__item"><a href="portfolio.html" class="mobile-menu__link">Портфолио</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Обо мне</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Услуги</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Биография</a></li>
+                <li class="mobile-menu__item"><a href="contacts.html" class="mobile-menu__link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="left_menu">
+        <div class="menu_photo"> <img class="my_img_menu" src="images/myphoto_1.jpg" alt="MyPhoto"> </div>
+        <h3 class="menu_title"> Nadezhda Hertz</h3>
+        <ul class="menu">
+            <li class="menu_item">
+                <a href="index.html" class="menu_link">Домой</a>
+            </li>
+            <li class="menu_item">
+                <a href="portfolio.html" class="menu_link">Портфолио</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">Обо мне</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">Услуги</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">Биография</a>
+            </li>
+            <li class="menu_item">
+                <a href="contacts.html" class="menu_link">Контакты</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main_block">
+        <div class="block">
+            <div id="carusel" class="carusel">
+                <div class="gallery">
+                    <ul>
+                        <li class="first_photo act" id="first_photo"><img class="my_img" src="images/myphoto_1.jpg">
+                        </li>
+                        <li class="second_photo" id="second_photo"><img class="my_img" src="images/myphoto_2.jpg">
+                        </li>
+                        <li class="third_photo" id="third_photo"><img class="my_img" src="images/myphoto_3.jpg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="buttons_block">
+                    <button class="arrow first act"> ← </button>
+                    <button class="arrow second"> → </button>
+                    <button class="arrow third"> → </button>
+                </div>
+            </div>
+
+            <div class="main_info">
+
+
+                <p class="about-title"> Привет! Я - </p>
+                <h2 class="main_title_gray">Nadezhda Hertz</h2>
+                <h1 class="main-title">Nadezhda Hertz.<br> <span class="main-title-profession">A web
+                        programmer.</span>
+                    <br>
+                    I bring the idea to life
+                </h1>
+                <section class="text-section">
+                    <p class="about-me">
+                        Ученица Института Програмных Систем по курсу "Web разработка", а эта страница является
+                        моим домашним заданием!
+                    </p>
+                </section>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer__works">
+                <h3 class="footer__title_works">Recent Works</h3>
+                <div class="block_of_works">
+                    <img class="works_img" src="images/girl_1.png">
+                    <img class="works_img" src="images/girl_in_red.png">
+                    <img class="works_img" src="images/girl_3.png">
+                </div>
+                <div class="block_of_works">
+                    <img class="works_img" src="images/girl_4.png">
+                    <img class="works_img" src="images/girl_5.png">
+                    <img class="works_img" src="images/girl_6.png">
+                </div>
+                <p class="footer__copyright">Copyright © 2021 All rights reserved</p>
+            </div>
+
+            <div class="footer__contacts">
+                <h3 class="footer__title_contacts">Have a Questions?</h3>
+                <ul>
+                    <li class="li_maps"> <img src="images/logo_maps.png" class="footer__logo" />203 Fake St.
+                        Mountain
+                        View,
+                        San
+                        Francisco, California, USA</li>
+                    <li> <img src="images/logo_phone.png" class="footer__logo" />+2 392 3929 210</li>
+                    <li> <img src="images/logo_mail.png" class="footer__logo" />info@yourdomain.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
